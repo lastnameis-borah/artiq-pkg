@@ -1,0 +1,3 @@
+[submodule "artiq-alkaline"]
+	path = artiq-alkaline
+	url = https://github.com/lastnameis-borah/artiq-alkaline.git
