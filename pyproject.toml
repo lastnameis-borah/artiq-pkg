@@ -11,7 +11,10 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "artiq-alkaline", "ndscan"}]
+packages = [
+    {include = "artiq-alkaline"},
+    {include = "ndscan"}
+]
 
 
 [build-system]
