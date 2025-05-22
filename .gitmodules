@@ -1,3 +1,6 @@
 [submodule "artiq-alkaline"]
 	path = artiq-alkaline
 	url = https://github.com/lastnameis-borah/artiq-alkaline.git
+[submodule "ndscan"]
+	path = ndscan
+	url = https://github.com/lastnameis-borah/ndscan.git
