@@ -6,14 +6,18 @@ authors = [
     {name = "anuragborah",email = "anuragborah2548@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-]
+
+[tools.poetry.dependencies]
+python = ">=3.12"
+artiq = { git = "https://github.com/lastnameis-borah/artiq-alkaline.git" }
+sipyco = { git = "https://github.com/m-labs/sipyco.git" }
+ndscan = { git = "https://github.com/lastnameis-borah/ndscan.git" }
+artiq-influx-generic = { git = "https://gitlab.com/charlesbaynham/artiq_influx_generic.git" }
+
 
 [tool.poetry]
 packages = [
-    {include = "artiq-alkaline"},
-    {include = "ndscan"}
+    {include = "artiq-alkaline"}
 ]
 
 
