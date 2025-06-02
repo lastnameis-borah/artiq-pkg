@@ -1,0 +1,1 @@
+This is the package containing the ARTIQ repository used to run all the crates by alkaline research team at UOB
